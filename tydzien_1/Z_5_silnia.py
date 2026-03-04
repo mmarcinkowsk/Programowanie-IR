@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-def kwadrat(x):
-    return x**2
-
 def rsilnia(n):
     if n == 0:
         return 1
@@ -25,7 +22,8 @@ def isilnia_for(n):
     return wynik
 
     
-n = int(input("Podaj n:"))
-print(f"{n}! = {rsilnia(n)}")
-print(f"{n}! = {isilnia_while(n)}")
-print(f"{n}! = {isilnia_for(n)}")
+if __name__ == "__main__":
+    n = int(input("Podaj n:"))
+    print(f"{n}! = {rsilnia(n)}")
+    print(f"{n}! = {isilnia_while(n)}")
+    print(f"{n}! = {isilnia_for(n)}")
