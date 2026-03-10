@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from Z_1_bobelkowe import sortowanie_bobelkowe
 
 def wyszukiwanie_binarne(lista, x):

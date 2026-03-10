@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def sortowanie_bobelkowe(lista):
     while True:
         liczba_zamian = 0
