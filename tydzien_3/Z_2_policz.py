@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def policz(lista):
     zbior_elementow = set(lista)
 
