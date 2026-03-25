@@ -3,7 +3,7 @@ print(__file__)
 
 # Przydaje się gdy chcemy znaleźć ścieżki do innych plików znajdujących się w tym samy katalogu, co skrypt.
 # Dzięki temu nie musimy podawać ścieżki bezwględnej do każdego pliku, który chcemy otworzyć.
-# Do tego celu można na przykład urzyć funkcji z biblioteki os.
+# Do tego celu można na przykład użyć funkcji z biblioteki os.
 
 import os
 
